@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                screen: {
+                    xs : {max : "300px"};
+                }
+              colors: {
+                clifford: '#da373d',
+                black: "#000" ;
+              }
+            }
+          }
+        }
+      </script>
+    
+    <title>Document</title>
+</head>
+<style>
+    div {
+        position: absolute;
+        transform: translate(-30px , -100px);
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: red   ;
+        transition: transform:cubic-bezier(1, 0, 0, 1) ;
+    }
+    div:hover   {
+
+    }
+    .text-black {
+        color: blue;
+    }
+
+</style>
+<body>
+    <div
+    class="text-lg max-w-[300px] mx-[auto] sm:max-w-[800px] lg:max-w-full "
+    >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste pariatur saepe magni, facere quasi esse illo? Ipsum ea optio nostrum, ab sequi similique reprehenderit quam esse perferendis consequuntur molestias fuga pariatur sint nihil eum rerum adipisci hic magni praesentium illo quia distinctio inventore aliquam. Quod eius vitae numquam nihil.</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+p :hover {
+    font-style: italic;
+    transition: all;
+}
+
+p.centered-paragraph    {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
+    text-decoration: underline;
+}
+[title~="bugatti"]  {
+    border: 5px solid yellow;
+    border-radius: 15%;
+}
+#lorem15    {
+    text-align: center;
+    color: blue;
+}
+.circle {
+    background-color: cyan;
+}
+
+.list-item2 , list-item4 , para-2 ,para-3   {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
